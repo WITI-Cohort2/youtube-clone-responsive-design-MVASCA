@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>YOUTUBE CLONE</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <link rel="stylesheet" href="youtube.css" />
+     <meta name="viewport" content="width=device-width, initial-scale=1"> 
+   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>  -->
+   <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+</head>
+
+<body>
+    <main>
+
+        <div class="clone">
+            <!--clone start-->
+            <div class="nav">
+                <!--header-->
+
+                <header class="header">
+                    <!--youtube logo-->
+                    <div class="left-logo">
+                        <i  id="menu"  class="fa fa-bars" aria-hidden="true"></i>
+                        <img  id="youtbube-img"  src="https://www.freecodecamp.org/news/content/images/2022/01/yt-logo.png" />
+                    </div>
+                    <!--search-->
+                    <div class="search"  >
+                        <input class="search-input" style="font: size 30px" type="text" placeholder="Search" />
+                        <button id="search-glass">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                         <i id="mic" class="fa-solid fa-microphone"></i>
+                    </div>
+                    <!--right icons-->
+                    <div class="media-icons "  >
+                        <div class="camera">
+                            <i class="fa-solid fa-video"></i>
+                        </div>
+                        <div class="notification">
+                            <i class="fa-solid fa-bell"></i>
+                        </div>
+                        <div class="apps">
+                            <i class="material-icons">apps</i>
+                        </div>
+                        <div id="profile">
+                            <img id="img" draggable="false" class="style-scope yt-img-shadow" alt="Avatar image"
+                                height="32" width="32"
+                                src="https://yt3.ggpht.com/yti/AJo0G0ksCL0dWFhDV6HLUV5Vodi0oc2Vyg_n2rMkXJ_3=s88-c-k-c0x00ffffff-no-rj-mo" />
+                        </div>
+                    </div>
+                </header>
+                <hr>
+            </div>
+            <div class="bottom-section">
+                <div class="sidebar">
+                    <a class="nav-link">
+                        <i class="material-icons">home</i>
+                        <span id="nav-span"> Home</span>
+                    </a>
+                    <a class="nav-link">
+                        <i class="fa-solid fa-compass"></i>
+                        <span id="nav-span1">Explore</span>
+                    </a>
+                    <a class="nav-link">
+                        <i class="fa-solid fa-bolt"></i>
+                        <span id="nav-span1">Shorts</span>
+                    </a>
+                    <a class="nav-link">
+                        <i class="material-icons">subscriptions</i>
+                        <span id="nav-span2">Subscriptions</span>
+                    </a>
+                    <div>
+                        <hr />
+                    </div>
+                    <a class="nav-link">
+                        <i class="material-icons">library_add_check</i>
+                        <span id="nav-span">Library</span>
+                    </a>
+                    <a class="nav-link">
+                        <i class="material-icons">history</i>
+                        <span id="nav-span">History</span>
+                    </a>
+                    <a class="nav-link">
+                        <i class="material-icons">play_arrow</i>
+                        <span id="nav-span">Your Videos</span>
+                    </a>
+                    <a class="nav-link">
+                        <i class="material-icons">watch_later</i>
+                        <span id="nav-span">Watch Later</span>
+                    </a>
+                    <a class="nav-link">
+                        <i class="material-icons">thumb_up</i>
+                        <span id="nav-span">Liked Videos</span>
+                    </a>
+                    <a class="nav-link">
+                        <i class="fa-solid fa-arrow-trend-up"></i>
+                        <span id="nav-span1">Lev</span>
+                    </a>
+                    <div>
+                        <hr />
+                    </div> 
+                    <div class="subscriptions">
+                        <p>SUBSCRIPTIONS</p>
+                        <div class="subscription_img_and_details">
+                        <img style="border-radius: 70px; height: 30px; width: 30px"
+                                    src="https://yt3.ggpht.com/ytc/AMLnZu_VxsgDG0FhE1ZZa21nFWjFh7jE2z_7J4otaCYW=s88-c-k-c0x00ffffff-no-rj" />
+                                <!-- </div> -->
+                                   <!-- <div class="sub-span"> -->
+                                     <span id="nav-span">Daniel Labelle</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="main-section-and-videos">
+                    <hr>
+                    <div class="top-options">
+                    <button class="but"  id="but-active" >All</button>
+                        <button class="but">Contemporary worship music</button>
+                        <button class="but">Mixes</button>
+                        <button class="but">Live</button>
+                        <button class="but">African music</button>
+                        <button class="but">Crowds</button>
+                        <button class="but">Public speaking event</button>
+                        <button class="but">CSS</button>
+                    </div>
+                        <hr>
+                        <div class="videos">
+                            <div class="wrapper-1">
+                                <div class="video">
+                                  <a href="https://www.youtube.com/watch?v=FAjc9TsEooM&t=698s"><img class="vids-images" src="/images/Capture_grace.PNG"></a>
+                                 </div>
+                                 <div class="details">
+                                    <div class="vid-detail">
+                                        <img  id="img1" src="https://yt3.ggpht.com/uLYZUy-sUSGZxxZSbjib46-dSYESkw0HGMcrL7e3ciqs1FMVEUfVrGLh1mJ9hntfjGx4gZ2ZbA=s68-c-k-c0x00ffffff-no-rj">
+                                    </div>
+                                    <div class="vid-details"> 
+                                        <h3>Worship Medley by Apostle Grace Lubega</h3>
+                                        <span>The God Life </span><br> 
+                                        <span>22K views.10 months ago</span>
+                                    </div>
+                                 </div>
+                                 </div> <!--first video ends-->
+                                 <div class="wrapper-1"><!--second video starts-->
+                                    <div class="video">
+                                        <a href="https://www.youtube.com/watch?v=x7tLPhnA06w&list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&index=1"><img class="vids-images" src="/images/Capture-naija.PNG"></a>
+                                    </div>
+                                    <div class="details">
+                                        <div class="vid-detail">
+                                            <img  id="img1" src="https://yt3.ggpht.com/ytc/AMLnZu_vx2QaoABpOD1MFk3nvLibUr8EDUv_Z_xyvOAk6A=s68-c-k-c0x00ffffff-no-rj">
+                                        </div>
+                                        <div class="vid-details"> 
+                                            <h3>CSS Grid Tutorial #8-Mosaic Layout</h3>
+                                            <span>The Net Naija</span> <br> <span>79k Views.4 years ago</span>
+                                        </div>
+                                    </div>
+        
+                                 </div><!--second video ends-->
+                                 <div class="wrapper-1"><!--third video starts-->
+                             <div class="video">
+                               <a  href="https://www.youtube.com/watch?v=okbByPWS1Xc&t=482s"> <img class="vids-images" src="/images/Capture-form.PNG"></a>
+                             </div>
+                             <div class="details">
+                                <div class="vid-detail">
+                                    <img  id="img1" src="https://yt3.ggpht.com/mivQftRzFE9dCmIsdoG4zRuLq9iPDmbKCmn9UFKEvCodWoHg4PhZAOi6k8fXXYiZN3J3St6Ydg=s48-c-k-c0x00ffffff-no-rj">
+                                </div>
+                                <div class="vid-details"> 
+                                    <h3>Responsive Registration Form in HTML & CSS</h3>
+                                    <span>Coding lab</span> <br> <span> 7.7k view. 1 year ago</span>
+                                </div>
+                             </div>
+                                 </div><!--third video ends-->
+                                 <div class="wrapper-1"><!--fourth video starts-->
+                                <div class="video">
+                                   <a  href="https://www.youtube.com/watch?v=00xpYjU-yB4"> <img class="vids-images" src="/images/Capture-monks.PNG"></a>
+                                </div>
+                                <div class="details">
+                                    <div class="vid-detail"> 
+                                        <img  id="img1" src="https://yt3.ggpht.com/eG81H3gSYjkWoGIjMJ2x53M_iCt3psPFnK1-Hab8FPR4QelK5bkeIS_ZiSCm3Lc6yvD7hByea70=s68-c-k-c0x00ffffff-no-rj">
+                                    </div>
+                                    <div class="vid-details"> 
+                                        <h3>Jay Melody - Nakupenda (Official Video) by Tomezz Martommy|Sheryl|Alvin and The Chipmunks|Kabugi</h3>
+                                        <span>Tomezz Martommy </span> <br> <span>26k views. 3days ago</span>
+                                    </div>
+                                </div>
+                                 </div><!--fourth video ends-->
+                                 <div><!--fifth vid starts-->
+                                 <div class="wrapper-1">
+                                <div class="video">
+                                    <a href="https://www.youtube.com/watch?v=eXEvnce5Mvw&t=525s"><img class="vids-images" src="/images/Capture-rule.PNG"></a>
+                                </div>
+                                <div class="details">
+                                    <div class="vid-detail">
+                                        <img  id="img1" src="https://yt3.ggpht.com/UcTclRY5rATb4jiyXMLfwVsTDCLSgdETDM6Ebgsj3NKULRMlntJ7mnX43f8HixdSJhmqHSRHfg=s68-c-k-c0x00ffffff-no-rj">
+                                    </div>
+                                    <div class="vid-details"> 
+                                        <h3>First Day of Rule 👑 | S1 E1 | Full Episode | Elena of Avalor | Disney Channel</h3>
+                                        <span>2M views.</span> <br> <span>6 years ago</span>
+                                    </div>
+                                </div>
+                                </div>
+                                 </div><!--fifth vid starts-->
+                                 <div class="wrapper-1"><!--6th vid start-->
+                                <div class="video">
+                                    <a href="https://www.youtube.com/watch?v=ECOd877Urm4&t=46s"><img class="vids-images" src="/images/Capture-baby-animals.PNG"></a>
+                                </div>
+                                <div class="details">
+                                    <div class="vid-detail"> 
+                                        <img  id="img1" src="https://yt3.ggpht.com/ytc/AMLnZu9u7TfUHrPh1i3ochf90xvo8ryZpG1kea2OZwGpKg=s68-c-k-c0x00ffffff-no-rj">
+                                    </div>
+                                    <div class="vid-details"> 
+                                        <h3>Cutest baby animals Videos Compilation Cute moment of the Animals - Cutest Animals #4</h3>
+                                        <span>Cutest animals </span> <br><span>15M views. 1 year ago</span>
+                                    </div>
+                                </div>
+                                 </div><!--6th vid ends-->
+                                 <div class="wrapper-1"><!--7th video starts-->
+                                <div class="video">
+                                   <a href="https://www.youtube.com/watch?v=seo_5HZz_tU&t=86s"> <img class="vids-images" src="/images/Capture-bgt.PNG"></a>
+                                </div>
+                                <div class="details">
+                                    <div class="vid-detail"> 
+                                        <img  id="img1" src="https://yt3.ggpht.com/ytc/AMLnZu9GL72nHXl_k7-k5dl8eBzhwRfd4ep8a5WRMP2I=s68-c-k-c0x00ffffff-no-rj">
+                                    </div>
+                                    <div class="vid-details"> 
+                                        <h3>5 AMAZING Auditions From Week 1 of Britain's Got Talent 2022!</h3>
+                                    <span>Porpcorn </span><br> <span>12M views. 3 months ago</span>
+                                    </div>
+                                </div>
+                                 </div><!--7th video ends-->
+                                 <div class="wrapper-1"><!--8th vid starts-->
+                                 <div class="video">
+                                    <a href="https://www.youtube.com/watch?v=pI8xkVo8nR8&t=14s"><img class="vids-images" src="/images/Capture-jireh.PNG"></a>
+                                 </div>
+                                 <div class="details">
+                                    <div class="vid-detail"> 
+                                        <img  id="img1" src="https://yt3.ggpht.com/ZgAurx3t-5UpxTZfABMAXIz0e4oOC3advs1nTWlLgR0JyfvsRNvyM9EqDrOksIxr3Q8YVumSyg=s68-c-k-c0x00ffffff-no-rj">
+                                    </div>
+                                    <div class="vid-details">     
+                                        <h3>Jireh: Chandler Moore & Naomi Raine 1 Hour Loop | Elevation Worship & Maverick City</h3>
+                                        <span>Your soul belongs to God </span><br> <span>87k view.1 month ago</span>
+                                    </div>
+                                 </div>
+                                 </div><!--8th vid ends-->
+                                 <div class="wrapper-1"><!--9th vid starts-->
+                                <div class="video">
+                                    <a href="https://www.youtube.com/watch?v=_uQrJ0TkZlc&t=696s"><img class="vids-images" src="/images/Capture-mosh.PNG"></a>
+                                </div>
+                                <div class="details">
+                                    <div class="vid-detail">  
+                                        <img  id="img1" src="https://yt3.ggpht.com/tBEPr-zTNXEeae7VZKSZYfiy6azzs9OHowq5ZvogJeHoVtKtEw2PXSwzMBKVR7W0MI7gyND8=s68-c-k-c0x00ffffff-no-rj">
+                                    </div>
+                                    <div class="vid-details"> 
+                                        <h3>Python Tutorial - Python Full Course for Beginners</h3>
+                                    <span>Programming with Mosh </span><br> <span>28M views.3 years ago</span>
+                                    </div>
+                                </div>
+                                 </div><!--9th vid ends-->
+                                <div class="wrapper-1"><!--10th vid starts-->
+                                <div class="video">
+                                   <a href="https://www.youtube.com/watch?v=xC-c7E5PK0Y&t=65s"><img class="vids-images" src="/images/Capture-joma.PNG"></a>
+                                </div>
+                                <div class="details">
+                                    <div class="vid-detail"> 
+                                        <img  id="img1" src="https://yt3.ggpht.com/ytc/AMLnZu9W2h9scoXcwnKhrhI0qeCL34DXNbamX-rBosaN=s48-c-k-c0x00ffffff-no-rj">
+                                    </div>
+                                    <div class="vid-details"> 
+                                        <h3>What REALLY is Data Science? Told by a Data Scientist</h3>
+                                        <span>Joma Tech </span><br> <span>1M views. 3 years ago</span>
+                                    </div>
+                                </div>
+                                 </div><!--10th vid ends-->
+                                 <div class="wrapper-1"><!--11th vid starts-->
+                                    <div class="video">
+                                       <a href="https://www.youtube.com/watch?v=ZDa-Z5JzLYM&t=159s"> <img class="vids-images" src="/images/Capture-corey.PNG"></a>
+                                    </div>
+                                <div class="details">
+                                    <div class="vid-detail"> 
+                                        <img  id="img1" src="https://yt3.ggpht.com/ytc/AMLnZu_MHfLS7PlpkGLsK_OVuw59IQXMsBwvVjH4B8Gu=s48-c-k-c0x00ffffff-no-rj">
+                                    </div>
+                                    <div class="vid-details"> 
+                                        <h3>Python OOP Tutorial 1: Classes and Instances</h3>
+                                        <span>Corey Schafer </span><br> <span>3M view. 6 years ago</span>
+                                    </div>
+                                </div>
+                                 </div><!--11th vid ends-->
+                                 <div class="wrapper-1"><!--12th vid starts-->
+                                    <div class="video">
+                                        <a href="https://www.youtube.com/watch?v=oiM0YlIfDko&t=164s"><img class="vids-images" src="/images/Capture-i-fall-in-love.PNG"></a>
+                                    </div>
+                                 <div class="details">
+                                    <div class="vid-detail"> 
+                                        <img id="img1" src="https://yt3.ggpht.com/ytc/AMLnZu_rUj0nccnc8r_4ybGkWEpiqCQF04mmMp63FPXq=s68-c-k-c0x00ffffff-no-rj">
+                                    </div>
+                                    <div class="vid-details"> 
+                                        <h3>I Fall InLove Wit My OFFICE-DRIVER But Didnt Knw He Is Disguise Billonaire Til I Visted His House-NG</h3>
+                                        <span>Top Love Tv </span><br> <span>7.8k views. 2months ago</span>
+                                    </div>
+                                 </div>
+                                 </div><!--12th vid ends-->
+                        </div>
+                        
+                </div>
+                
+        </div>
+            </div>
+                
+            
+          
+        </section> 
+    </main>
+</body>
+
+</html>
